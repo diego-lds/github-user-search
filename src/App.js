@@ -1,4 +1,4 @@
-import Header from "./components/header";
+import { Header, SearchUserInput } from "./components";
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";
@@ -18,6 +18,9 @@ function App() {
           <Header
             toggleTheme={toggleTheme}
             changeTheme={theme === "light" ? "dark" : "light"}
+          />
+          <SearchUserInput
+            onClick={() => console.log("Search button cicked")}
           />
         </Container>
       </StyledApp>
