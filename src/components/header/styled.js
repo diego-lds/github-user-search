@@ -5,9 +5,8 @@ const StyledHeader = styled.section`
   height: 32px;
   justify-content: space-between;
   align-items: center;
-  border: thin solid yellow;
   p {
-    color: #222731;
+    color: ${(props) => props.theme.color};
     font-size: 26px;
     font-weight: bold;
     font-family: "Space Mono", monospace;

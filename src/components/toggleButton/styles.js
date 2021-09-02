@@ -20,4 +20,4 @@ const StyledButton = styled.button`
   }
 `;
 
-export { StyledButton };
+export { Button, Icon };

@@ -1,18 +1,20 @@
 import DarkIcon from "../../assets/moon.svg";
 import SunIcon from "../../assets/sun.svg";
-import { StyledButton } from "./styles.js";
+
+import { Button, Icon } from "./styles.js";
 
 const ToggleButton = ({ onClick, theme }) => {
   const themeIcon = theme === "dark" ? DarkIcon : SunIcon;
 
   return (
     <>
-      <StyledButton onClick={onClick}>
+      <Button onClick={onClick}>
         <span>{theme}</span>
+
         <img src={themeIcon} />
-      </StyledButton>
+      </Button>
     </>
   );
 };
 
-export default ToggleButton;
+export { ToggleButton };

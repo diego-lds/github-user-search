@@ -1,4 +1,4 @@
-import ToggleButton from "../toggleButton";
+import { ToggleButton } from "../toggleButton";
 import { StyledHeader } from "./styled.js";
 
 const Header = ({ toggleTheme, changeTheme }) => {
@@ -10,4 +10,4 @@ const Header = ({ toggleTheme, changeTheme }) => {
   );
 };
 
-export default Header;
+export { Header };
