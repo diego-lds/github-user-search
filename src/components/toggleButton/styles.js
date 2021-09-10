@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-const StyledButton = styled.button`
+const Button = styled.button`
   width: 90px;
-  border: solid red thin;
+  border: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,4 +20,4 @@ const StyledButton = styled.button`
   }
 `;
 
-export { Button, Icon };
+export { Button };

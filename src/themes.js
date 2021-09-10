@@ -4,7 +4,7 @@ export const lightTheme = {
   body: "#F6F8FF",
   color: "#697C9A",
   inputBackgroundColor: "#fefefe",
-  inputFontColor: "red",
+  inputFontColor: "#222731",
   inputBoxShadow: "0px 16px 30px -10px rgba(70, 96, 187, 0.198567)",
 };
 
